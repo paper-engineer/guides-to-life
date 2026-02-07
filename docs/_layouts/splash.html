@@ -49,6 +49,7 @@
     .portfolio .portfolio-content { padding: 1rem; flex: 1; }
     .portfolio h4 { margin: 0.5rem 0; }
     .portfolio p { font-size: 0.95rem; color: #555; }
+    .portfolio-link { text-decoration: none; color: inherit; display: block; }
 
     /* --- Footer --- */
     footer { text-align: center; padding: 2rem 1.5rem; background: #f6f6f6; font-size: 0.9rem; color: #555; }
@@ -76,16 +77,18 @@
   <!-- Main content -->
   <main>
     {{ content }}
-    {% if page.portfolio %}
+      {% if page.portfolio %}
       <section class="portfolio">
         {% for card in page.portfolio %}
-        <article>
-          <img src="{{ card.image }}" alt="{{ card.title }}">
-          <div class="portfolio-content">
-            <h4>{{ card.title }}</h4>
-            <p>{{ card.description }}</p>
-          </div>
-        </article>
+        <a href="{{ card.url }}" class="portfolio-link">
+          <article>
+            <img src="{{ card.image }}" alt="{{ card.title }}">
+            <div class="portfolio-content">
+              <h4>{{ card.title }}</h4>
+              <p>{{ card.description }}</p>
+            </div>
+          </article>
+        </a>
         {% endfor %}
       </section>
       {% endif %}
