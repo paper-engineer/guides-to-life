@@ -13,6 +13,7 @@ portfolio:
   - title: Project One
     image: /assets/images/logo.svg
     description: A short description of Project One and what makes it awesome.
+    url: ""
   - title: Project Two
     image: /assets/images/logo.svg
     description: Highlights, key features, or any other short info.
