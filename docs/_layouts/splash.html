@@ -57,7 +57,7 @@
       {% if page.cta %}
         <nav class="hero-actions">
           {% for item in page.cta %}
-            <a href="{{ index.baseurl | item.url }}" class="{{ item.class | default: '' }}">{{ item.text }}</a>
+            <a href="{{ item.url }}" class="{{ item.class | default: '' }}">{{ item.text }}</a>
           {% endfor %}
         </nav>
       {% endif %}
