@@ -50,7 +50,7 @@ defaults:
     scope:
       path: "_collections/_chapters/0-introduction"
     values:
-      chapter: "Logistics"
+      chapter: "Introduction"
       chapnum: 1
       subsite: "Young Person's Guide"
   -
