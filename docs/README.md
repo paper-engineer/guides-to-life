@@ -14,6 +14,7 @@ Todo
 - found one in includes/internal/prev-next.html that uses previous.url and next.url
 - well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
 - the page.url one fixed itself, so maybe hopefully I rebuild a page and it'll pull the new prev-next?
+- nope, it didn't. 
 - also I got a splash page working, now to make it fucking behave
 
 ---
