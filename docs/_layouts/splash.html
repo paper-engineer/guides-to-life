@@ -72,9 +72,9 @@
     {% if page.portfolio %}
     <section class="portfolio">
       {% for card in page.portfolio %}
-      <a href="{{ card.url }}" class="portfolio-link">
+      <a href="{{ card.url | relative_url }}" class="portfolio-link">
         <article>
-          <img src="{{ card.image }}" alt="{{ card.title }}">
+          <img src="{{ card.image | relative_url }}" alt="{{ card.title }}">
           <div class="portfolio-content">
             <h4>{{ card.title }}</h4>
             <p>{{ card.description }}</p>
