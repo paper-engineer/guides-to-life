@@ -29,6 +29,6 @@ portfolio:
 
 This is placeholder text and the chapter links below are placeholders for testing. Today is not the day that this becomes a complete landing page. 
 
-adding cards broke the chapter list for a while, and also, apparently it only like jpgs. 
+adding cards broke the chapter list for a while, and also, apparently it only like jpgs. idk, we're trying this again with a png. 
 
 {% include chapter-list.html %}
