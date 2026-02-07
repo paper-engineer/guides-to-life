@@ -1,12 +1,12 @@
 # Site settings
-title: Jekyll GitBook Theme Demo Site
-email: adam@adamrehn.com
-description: Demo site for the GitBook-inspired documentation theme for Jekyll
-url: "https://adamrehn.github.io"
-baseurl: "/jekyll-theme-gitbook-demo"
-timezone: Australia/Brisbane
+title: Freedom Highway
+email: 
+description: Guides to Life
+url: "https://paper-engineer.github.io"
+baseurl: "/guides-to-life"
+timezone: NZ
 
-# Build settings
+# Build settings - do not change
 remote_theme: adamrehn/jekyll-theme-gitbook@v0.0.1
 markdown: kramdown
 kramdown:
@@ -23,9 +23,9 @@ theme-settings:
   
   # Copyright settings
   copyright:
-    author: Adam Rehn
-    license: "Licensed under the MIT License, see the file [LICENSE](https://github.com/adamrehn/jekyll-theme-gitbook-demo/blob/master/LICENSE) for details."
-    year: 2020
+    author: Big Mog & Little Mog
+    license: "CC BY 4.0"
+    year: 2025
   
   # The collection that contains our chapters
   collection: chapters
