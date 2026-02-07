@@ -1,11 +1,16 @@
 {% include internal/header.html %}
-
-<div class="book-body">
-  <div class="page-wrapper">
-    <div class="page-inner home">
-
-      {{ content }}
-
-    </div>
-  </div>
+<div class="root-wrapper">
+	<p class="logo"><img src="/assets/images/logo.svg" alt="alttext"></p> //this produces the splash page
+      //include the below in a for loop or something
+			<div class="project-cards container">
+						<a href="/0-introduction" class="project-card introduction">
+							<div class="icon">
+								<span class="fa-fw fad fa-boxes"></span>
+							</div>
+							<div class="details">
+								<p>title</p>
+								<p>text</p>
+							</div>
+						</a>
+	      </div>
 </div>
