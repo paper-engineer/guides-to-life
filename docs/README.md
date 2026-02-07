@@ -16,6 +16,7 @@ Todo
 - the page.url one fixed itself, so maybe hopefully I rebuild a page and it'll pull the new prev-next?
 - nope, it didn't. 
 - also I got a splash page working, now to make it fucking behave
+- got chatgpt to make the splash page more jekyll-like, and we'll see if it works
 
 ---
 
