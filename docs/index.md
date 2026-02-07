@@ -11,6 +11,6 @@ cta:
 
 This is placeholder text and the chapter links below are placeholders for testing. Today is not the day that this becomes a complete landing page. 
 
-[If you're looking for the real estate development stuff, click here.](https://paper-engineer.github.io/real-estate-updates/)
+**[If you're looking for the real estate development stuff, click here.](https://paper-engineer.github.io/real-estate-updates/)**
 
 {% include chapter-list.html %}
