@@ -13,7 +13,7 @@
 						{% assign pages = pages | where: "subsite", page.subsite %}
 					{% endif %}
 					<ul>
-						{% for page in pages %}<li><a href="{{ page.url | index.baseurl | uri_escape }}">{{ page.title | escape }}</a></li>{% endfor %}
+						{% for page in pages %}<li><a href="{{ index.url | remove: "/index" | index.baseurl | relative_url | uri_escape }}">{{ page.title | escape }}</a></li>{% endfor %}
 					</ul>
 					
 					{% include internal/copyright.html %}
