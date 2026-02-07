@@ -50,14 +50,16 @@ defaults:
     scope:
       path: "_collections/_chapters/first-chapter"
     values:
-      chapter: "First Chapter"
+      chapter: "Logistics"
       chapnum: 1
+      subsite: "Young Person's Guide"
   -
     scope:
       path: "_collections/_chapters/second-chapter"
     values:
       chapter: "Second Chapter"
       chapnum: 2
+      subsite: "Young Person's Guide"
   -
     scope:
       path: "_collections/_chapters/third-chapter"
