@@ -4,17 +4,17 @@
 
 Todo
 - see if I can make it read separate collections for chapters
-- raise an issue about the page.url and index.baseurl thing, fork the project if it doesn't work
+- raise an issue about the page.url and index.baseurl thing, fork the project if it doesn't work. refer logs 8/2/2026
 
 8/2/2026
 - set up the thing and made the right pane toc work.
 - copying through splash.html from minimal-mistakes did not work. or rather, it worked in the sense that I get an extra tab on my front page, but the layout didn't copy. 
 - the next/prev page buttons don't work on project pages, it's missing a |index.baseurl| somewhere in the code. 
-- it's in multiple locations in multiple ways: includes/thirdparty/chapter-list (fixable by adding |index.baseurl|) and layouts/chapter-index (page.url is a different beastie). 
-- found one in includes/internal/prev-next.html that uses previous.url and next.url
+- it's in multiple locations in multiple ways:
+  - includes/thirdparty/chapter-list (fixable by adding |index.baseurl|) 
+  - layouts/chapter-index (page.url is a different beastie but this one has been fixed too)
+  - includes/internal/prev-next.html (uses previous.url and next.url and I can't figure out the fix)
 - well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
-- the page.url one fixed itself, so maybe hopefully I rebuild a page and it'll pull the new prev-next?
-- nope, it didn't. 
 - also I got a splash page working, got chatgpt to make the splash page more jekyll-like, and now we're onto chatgpt customisations. why not. 
 
 ---
