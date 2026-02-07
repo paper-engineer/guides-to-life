@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    header {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("hero.jpg") center / cover no-repeat;
+      color: white;
+      padding: 4rem 1.5rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+      border: 2px solid white;
+      color: white;
+    }
+
+    nav a.primary {
+      background: white;
+      color: #111;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      background: #f6f6f6;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>My Project</h1>
+      <p>Documentation that doesn’t suck.</p>
+
+      <nav>
+        <a href="#get-started" class="primary">Get started</a>
+        <a href="/docs/">View docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="get-started">
+      <h2>Why this exists</h2>
+      <p>
+        A short explanation of what this project does and who it’s for.
+      </p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Simple</li>
+        <li>Portable</li>
+        <li>Fast</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 My Project
+  </footer>
+</body>
+</html>
