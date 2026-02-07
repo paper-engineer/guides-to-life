@@ -13,7 +13,7 @@ Todo
 - it's in multiple locations in multiple ways:
   - includes/thirdparty/chapter-list (fixable by adding |index.baseurl|) 
   - layouts/chapter-index (page.url is a different beastie but this one has been fixed too)
-  - includes/internal/prev-next.html (uses previous.url and next.url and I can't figure out the fix)
+  - includes/internal/prev-next.html (uses previous.url and next.url and I can't figure out the fix) it had relative_uri, which, what. 
   - according to chatgpt, relative_url already prepends the baseurl so it should have already worked. 
 - well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
 - also I got a splash page (almost) working, got chatgpt to make the splash page more jekyll-like, and now we're onto chatgpt customisations. why not. 
