@@ -41,6 +41,15 @@
     .features { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
     .features article { padding: 1.5rem; border: 1px solid #ddd; border-radius: 0.5rem; }
 
+    /* --- Portfolio Cards --- */
+    .portfolio { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin-bottom: 3rem; }
+    .portfolio article { border: 1px solid #ddd; border-radius: 0.5rem; overflow: hidden; display: flex; flex-direction: column; background: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .portfolio article:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    .portfolio img { width: 100%; display: block; height: 160px; object-fit: cover; }
+    .portfolio .portfolio-content { padding: 1rem; flex: 1; }
+    .portfolio h4 { margin: 0.5rem 0; }
+    .portfolio p { font-size: 0.95rem; color: #555; }
+
     /* --- Footer --- */
     footer { text-align: center; padding: 2rem 1.5rem; background: #f6f6f6; font-size: 0.9rem; color: #555; }
   </style>
@@ -67,6 +76,19 @@
   <!-- Main content -->
   <main>
     {{ content }}
+    {% if page.portfolio %}
+      <section class="portfolio">
+        {% for card in page.portfolio %}
+        <article>
+          <img src="{{ card.image }}" alt="{{ card.title }}">
+          <div class="portfolio-content">
+            <h4>{{ card.title }}</h4>
+            <p>{{ card.description }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </section>
+      {% endif %}
   </main>
 
   <!-- Footer -->
