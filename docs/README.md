@@ -2,15 +2,18 @@
 
 Todo
 - see if I can make it read separate collections for chapters
-- figure out how to make a splash page and book landing pages...fuck it, introduction section it is, then there's just the splash page left. ugh, and the faq/site stuff, but that's basically just a book and some hooks. 
-- the next/prev page buttons don't work for the same reason the index.html pages don't work. fix it, then make a PR.
-- it's in two locations: includes/thirdparty/chapter-list and layouts/chapter-index. so far. there may be more.
-- found one in includes/internal/prev-next.html and updated that too. at this point we may as well find-and-replace by iteration through the whole thing.
-- page.url seems to not work, copied the index.url|remove part of it across from the one that did work. 
+- figure out how to make a splash page
+- ugh, and the faq/website design stuff, but that's basically just a book and some hooks. 
+- raise an issue about the page.url and index.baseurl thing
 
 8/2/2026
 - set up the thing and made the toc work.
 - copying through splash.html from minimal-mistakes did not work. or rather, it worked in the sense that I get an extra tab on my front page, but the layout didn't copy. 
+- the next/prev page buttons don't work on project pages, it's missing a |index.baseurl| somewhere in the code. 
+- it's in multiple locations in multiple ways: includes/thirdparty/chapter-list (fixable by adding |index.baseurl|) and layouts/chapter-index (page.url is a different beastie). 
+- found one in includes/internal/prev-next.html that uses page.url. 
+- well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
+- ah, fixed it in a page.url way too. now to copy that over!
 
 ---
 
@@ -21,6 +24,8 @@ use "toc: true" to generate the right pane TOC. it works if you put it under ind
 using subsite to split out books works, but then literally all the chapters are in one major folder. hmmmm. 
 
 header/footer include hooks work, as default
+
+book landing pages use a section "0-introduction"
 
 ---
 
