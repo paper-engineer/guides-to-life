@@ -20,19 +20,15 @@ plugins: ["jekyll-remote-theme"]
 
 # Theme settings
 theme-settings:
-  
   # Copyright settings
   copyright:
     author: Big Mog & Little Mog
     license: "CC BY 4.0"
     year: 2025
-  
   # The collection that contains our chapters
   collection: chapters
-  
   # Enable generation of links for chapter index pages
-  indices: true
-  toc: true
+  indices: false
 
 # Configure the permalinks for each chapter
 collections_dir: _collections
@@ -49,6 +45,7 @@ defaults:
       type: "chapters"
     values:
       layout: "default"
+      toc: true
   -
     scope:
       path: "_collections/_chapters/first-chapter"
