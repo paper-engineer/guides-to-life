@@ -1,3 +1,8 @@
+
+Each chapter (section, in our book) has an index.html, it'll be fine. 
+
+---
+
 # Demo site for the GitBook-inspired documentation theme for Jekyll
 
 This is the demo site for the [GitBook-inspired documentation theme for Jekyll](https://github.com/adamrehn/jekyll-theme-gitbook). You can view the demo site live here: <https://adamrehn.github.io/jekyll-theme-gitbook-demo>.
