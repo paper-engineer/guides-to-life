@@ -1,5 +1,5 @@
 ---
-title: Example page
+title: First Page
 pagenum: 1
 ---
 
