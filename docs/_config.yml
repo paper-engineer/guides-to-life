@@ -84,3 +84,10 @@ defaults:
       chapter: "Volume 2 Chapter 1"
       chapnum: 5
       subsite: 
+  -
+    scope:
+      path: "_collections/_book2/v2c2-chapter"
+    values:
+      chapter: "Volume 2 Chapter 2"
+      chapnum: 6
+      subsite: 
