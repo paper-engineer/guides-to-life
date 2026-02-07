@@ -32,6 +32,7 @@ theme-settings:
   
   # Enable generation of links for chapter index pages
   indices: true
+  toc: true
 
 # Configure the permalinks for each chapter
 collections_dir: _collections
