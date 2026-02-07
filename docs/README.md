@@ -2,7 +2,8 @@
 
 Todo
 - see if I can make it read separate collections for chapters
-- figure out how to make a splash page and book landing pages...fuck it, introduction section it is, then there's just the splash page left. 
+- figure out how to make a splash page and book landing pages...fuck it, introduction section it is, then there's just the splash page left.
+- the next/prev page buttons don't work for the same reason the index.html pages don't work. fix it, then make a PR. 
 
 8/2/2026
 - set up the thing and made the toc work.
