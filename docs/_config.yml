@@ -26,7 +26,7 @@ theme-settings:
     license: "CC BY 4.0"
     year: 2025
   # The collection that contains our chapters
-  collection: chapters, book2
+  collection: [chapters, book2]
   # Enable generation of links for chapter index pages
   indices: false
 
