@@ -5,6 +5,8 @@ pagenum: 1
 
 This is an example page demonstrating various types of content and their interactions with the features provided by the theme.
 
+We are trying to reload this page and make it work. 
+
 
 ## Heading levels
 
