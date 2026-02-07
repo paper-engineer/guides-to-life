@@ -29,6 +29,6 @@ portfolio:
 
 This is placeholder text and the chapter links below are placeholders for testing. Today is not the day that this becomes a complete landing page. 
 
-adding cards broke the chapter list for a while, still trying to fix. 
+adding cards broke the chapter list for a while, still trying to fix. commented out portfolio cards for now. 
 
 {% include chapter-list.html %}
