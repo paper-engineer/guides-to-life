@@ -1,6 +1,7 @@
 ---
-layout: splash
+layout: default
 title: Freedom Highway
+nav: false
 ---
 
 This is, we'll say, a placeholder front page. I'm trying something. 
