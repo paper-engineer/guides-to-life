@@ -48,7 +48,7 @@ defaults:
       toc: true
   -
     scope:
-      path: "_collections/_chapters/introduction"
+      path: "_collections/_chapters/0-introduction"
     values:
       chapter: "Logistics"
       chapnum: 1
