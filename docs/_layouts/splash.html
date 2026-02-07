@@ -76,22 +76,24 @@
 
   <!-- Main content -->
   <main>
-    {{ content }}
-      {% if page.portfolio %}
-      <section class="portfolio">
-        {% for card in page.portfolio %}
-        <a href="{{ card.url }}" class="portfolio-link">
-          <article>
-            <img src="{{ card.image }}" alt="{{ card.title }}">
-            <div class="portfolio-content">
-              <h4>{{ card.title }}</h4>
-              <p>{{ card.description }}</p>
-            </div>
-          </article>
-        </a>
-        {% endfor %}
-      </section>
-      {% endif %}
+    <section class="section">
+      {{ content }}
+    </section>
+    {% if page.portfolio %}
+    <section class="portfolio">
+      {% for card in page.portfolio %}
+      <a href="{{ card.url }}" class="portfolio-link">
+        <article>
+          <img src="{{ card.image }}" alt="{{ card.title }}">
+          <div class="portfolio-content">
+            <h4>{{ card.title }}</h4>
+            <p>{{ card.description }}</p>
+          </div>
+        </article>
+      </a>
+      {% endfor %}
+    </section>
+    {% endif %}
   </main>
 
   <!-- Footer -->
