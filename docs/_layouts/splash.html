@@ -69,6 +69,8 @@
     <div class="page-content">
       {{ content }}
     </div>
+  </main>
+
     {% if page.portfolio %}
     <section class="portfolio">
       {% for card in page.portfolio %}
@@ -84,8 +86,7 @@
       {% endfor %}
     </section>
     {% endif %}
-  </main>
-
+  
   <!-- Footer -->
   <footer>
     © {{ site.time | date: "%Y" }} {{ site.title | default: "My Project" }}
