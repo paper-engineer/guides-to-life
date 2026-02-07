@@ -2,7 +2,7 @@
 
 Todo
 - see if I can make it read separate collections for chapters
-- figure out how to make a splash page and book landing pages...fuck it, introduction section it is, then there's just the splash page left.
+- figure out how to make a splash page and book landing pages...fuck it, introduction section it is, then there's just the splash page left. ugh, and the faq/site stuff, but that's basically just a book and some hooks. 
 - the next/prev page buttons don't work for the same reason the index.html pages don't work. fix it, then make a PR.
 - it's in two locations: includes/thirdparty/chapter-list and layouts/chapter-index. so far. there may be more. 
 
@@ -18,6 +18,7 @@ use "toc: true" to generate the right pane TOC. it works if you put it under ind
 
 using subsite to split out books works, but then literally all the chapters are in one major folder. hmmmm. 
 
+header/footer include hooks work, as default
 
 ---
 
