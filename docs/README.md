@@ -11,9 +11,10 @@ Todo
 - copying through splash.html from minimal-mistakes did not work. or rather, it worked in the sense that I get an extra tab on my front page, but the layout didn't copy. 
 - the next/prev page buttons don't work on project pages, it's missing a |index.baseurl| somewhere in the code. 
 - it's in multiple locations in multiple ways: includes/thirdparty/chapter-list (fixable by adding |index.baseurl|) and layouts/chapter-index (page.url is a different beastie). 
-- found one in includes/internal/prev-next.html that uses page.url. 
+- found one in includes/internal/prev-next.html that uses previous.url and next.url
 - well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
-- ah, fixed it in a page.url way too. now to copy that over!
+- the page.url one fixed itself, so maybe hopefully I rebuild a page and it'll pull the new prev-next?
+- also I got a splash page working, now to make it fucking behave
 
 ---
 
