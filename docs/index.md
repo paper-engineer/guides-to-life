@@ -9,6 +9,8 @@ cta:
     class: primary
 ---
 
-This is placeholder text and the below links are placeholders for testing. 
+This is placeholder text and the chapter links below are placeholders for testing. 
+
+[If you're looking for the real estate development stuff, click here.](https://paper-engineer.github.io/real-estate-updates/)
 
 {% include chapter-list.html %}
