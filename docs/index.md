@@ -3,7 +3,7 @@ layout: default
 title: Freedom Highway
 ---
 
-This is a backup because I'm now messing with my real index.md page. 
+Back to the regularly scheduled programming for now. 
 
 [If you're looking for the Guides, click here.](https://guides.alwaysdata.net)
 
