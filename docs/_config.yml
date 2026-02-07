@@ -48,21 +48,29 @@ defaults:
       toc: true
   -
     scope:
-      path: "_collections/_chapters/first-chapter"
+      path: "_collections/_chapters/introduction"
     values:
       chapter: "Logistics"
       chapnum: 1
       subsite: "Young Person's Guide"
   -
     scope:
+      path: "_collections/_chapters/first-chapter"
+    values:
+      chapter: "Logistics"
+      chapnum: 2
+      subsite: "Young Person's Guide"
+  -
+    scope:
       path: "_collections/_chapters/second-chapter"
     values:
       chapter: "Second Chapter"
-      chapnum: 2
+      chapnum: 3
       subsite: "Young Person's Guide"
   -
     scope:
       path: "_collections/_chapters/third-chapter"
     values:
       chapter: "Third Chapter"
-      chapnum: 3
+      chapnum: 4
+      subsite: "Adult's Guide"
