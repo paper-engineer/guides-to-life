@@ -30,7 +30,7 @@
 	
 	{% if previous != nil %}
 	<div class="previous">
-		<a href="{{ previous.url | index.baseurl | relative_uri | uri_escape }}">
+		<a href="{{ previous.url | relative_url | uri_escape }}">
 			<span class="icon fas {% if site.theme-settings.fontawesome.icons.left %}{{ site.theme-settings.fontawesome.icons.left | escape }}{% else %}fa-arrow-left{% endif %}"></span>
 			<div>
 				<p class="label">Previous: {{ previous.chapter | escape }}</p>
@@ -42,7 +42,7 @@
 	
 	{% if next != nil %}
 	<div class="next">
-		<a href="{{ next.url | index.baseurl | relative_uri | uri_escape }}">
+		<a href="{{ next.url | relative_url | uri_escape }}">
 			<div>
 				<p class="label">Next: {{ next.chapter | escape }}</p>
 				<p class="title">{{ next.title | escape }}</p>
