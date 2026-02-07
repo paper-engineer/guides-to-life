@@ -1,5 +1,7 @@
 
 Each chapter (section, in our book) has an index.html, it'll be fine. 
+(it was not fine. it's broken if you use it as a project pages site with the /. whatever, I'm not using it right now.)
+use "toc: true" to generate the right pane TOC. 
 
 ---
 
