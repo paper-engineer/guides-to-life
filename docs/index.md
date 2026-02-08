@@ -9,4 +9,4 @@ cta:
     class: primary
 ---
 
-Insert nifty little about-this-series text here
+In this book, Big Mog and Little Mog talk about how to function in (contemporary western) society at a baseline level. 
