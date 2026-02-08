@@ -18,7 +18,8 @@ Todo
   - includes/internal/prev-next.html (uses previous.url and next.url and I can't figure out the fix) it had relative_uri, which, what. 
   - according to chatgpt, relative_url already prepends the baseurl so it should have already worked. 
 - well, it'll resolve itself when there's a website. hopefully? or we can raise an issue. 
-- also I got a splash page (almost) working, got chatgpt to make the splash page more jekyll-like, and now we're onto chatgpt customisations. why not. 
+- also I got a splash page (almost) working, got chatgpt to make the splash page more jekyll-like, and now we're onto chatgpt customisations. why not.
+- it's now splashed fine, but not reading separate collections, and I think the collections experiment broke my left pane (manually went to address to check)
 
 ---
 
