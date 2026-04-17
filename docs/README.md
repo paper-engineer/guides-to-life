@@ -4,6 +4,13 @@
 
 okay, honestly, at this point, the thing to do is probably fork minimal-mistakes and tack-on the nav pane stuff, making it iterate in alphabetical order. also the css, just because. 
 
+or...maybe not? found a few links
+https://hydejack.com/
+https://andrewbanchich.github.io/forty-jekyll-theme/
+https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layouts/
+https://github.com/abhinavs/moonwalk
+some of which is more practical for the laser, which is what set me off to begin with, but here is a list
+
 Todo
 - see if I can make it read separate collections for chapters
 - raise an issue about the page.url and index.baseurl thing, fork the project if it doesn't work. refer logs 8/2/2026
