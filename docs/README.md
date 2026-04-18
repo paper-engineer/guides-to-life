@@ -17,12 +17,15 @@ https://github.com/abhinavs/moonwalk
 https://github.com/jeromelachaud/freelancer-theme
 https://github.com/sharu725/bheema
 https://github.com/sharu725/karna
+https://github.com/BGMP/bgm.dev
+https://github.com/CloudCannon/fur-jekyll-template
 
 maybe suits the laser
 https://jamstackthemes.dev/demo/theme/jekyll-creative-theme-new/
 https://jamstackthemes.dev/demo/theme/jekyll-theme-prologue/
 https://jamstackthemes.dev/demo/theme/jekyll-webjeda-cards/
 https://github.com/willianjusten/cards-jekyll-template
+https://github.com/fu4303/photography-aperature
 
 now with a repository here of weirdies or potentially useful sites that I think to keep
 https://github.com/thiagorossener/jekflix-template
@@ -34,6 +37,9 @@ https://andrewbanchich.github.io/forty-jekyll-theme/
 https://jamstackthemes.dev/demo/theme/jekyll-libdoc/
 https://jamstackthemes.dev/demo/theme/jekyll-cause/
 https://jamstackthemes.dev/demo/theme/jekyll-frisco/
+https://jamstackthemes.dev/demo/theme/jekyll-front-cover/
+https://jamstackthemes.dev/demo/theme/jekyll-aviator/
+https://github.com/emilbaehr/automatic-app-landing-page
 
 Todo
 - see if I can make it read separate collections for chapters
