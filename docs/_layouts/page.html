@@ -17,8 +17,14 @@
   {% include hero.html %}
 {% endif %}
 
-{{ content }}
-
+<section>
+	<div class="blog-post text-container">
+		<div class="post-content">
+			{{ content }}
+		</div>
+	</div>
+</section>
+	
 {% for hero in page.heroes %}
   {% if hero.position == "bottom" %}
     {% include hero.html hero=hero %}
