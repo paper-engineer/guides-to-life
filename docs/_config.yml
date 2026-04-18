@@ -30,6 +30,20 @@ kramdown:
 collections:
   pages:
     output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
   
 # ----------------------- #
 #   3rd Party Settings    #
