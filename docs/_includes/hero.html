@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<section class="hero" style="background-image: url({% include relative-src.html src=include.hero.image %})">
+<section class="hero" style="background-image: url({{ include.hero.image | default: page.image | relative_url }})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>{{ include.hero.title | default: page.title }}</h1>
