@@ -23,9 +23,9 @@ https://github.com/BGMP/bgm.dev
 https://github.com/CloudCannon/fur-jekyll-template
 
 maybe suits the laser
-https://jamstackthemes.dev/demo/theme/jekyll-creative-theme-new/
-https://jamstackthemes.dev/demo/theme/jekyll-theme-prologue/
-https://jamstackthemes.dev/demo/theme/jekyll-webjeda-cards/
+https://github.com/vvalchev/creative-theme-jekyll-new
+https://github.com/chrisbobbe/jekyll-theme-prologue
+https://github.com/sharu725/cards
 https://github.com/willianjusten/cards-jekyll-template
 https://github.com/fu4303/photography-aperature
 
@@ -36,11 +36,11 @@ https://github.com/SriSatyaLokesh/theprofile
 https://github.com/joaomlneto/jekyll-multiverse-template
 https://hydejack.com/
 https://andrewbanchich.github.io/forty-jekyll-theme/
-https://jamstackthemes.dev/demo/theme/jekyll-libdoc/
-https://jamstackthemes.dev/demo/theme/jekyll-cause/
-https://jamstackthemes.dev/demo/theme/jekyll-frisco/
-https://jamstackthemes.dev/demo/theme/jekyll-front-cover/
-https://jamstackthemes.dev/demo/theme/jekyll-aviator/
+https://github.com/olivier3lanc/Jekyll-LibDoc
+https://github.com/CloudCannon/cause-jekyll-template
+https://github.com/CloudCannon/frisco-jekyll-template
+https://github.com/dashingcode/front-cover
+https://github.com/CloudCannon/aviator-jekyll-template
 https://github.com/emilbaehr/automatic-app-landing-page
 
 Todo
