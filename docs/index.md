@@ -6,3 +6,4 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 layout: landing
 ---
 
+lorem ipsum
