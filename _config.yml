@@ -26,8 +26,6 @@ remote_theme:
 
 kramdown:
   input: GFM
-sass:
-  style: compressed
   
 # ----------------------- #
 #   3rd Party Settings    #
