@@ -5,12 +5,17 @@
 <body>
 	
 {% include header.html %}
-
-{% for hero in page.heroes %}
-  {% if hero.position == "top" %}
-    {% include hero.html hero=hero %}
-  {% endif %}
-{% endfor %}
+	
+{% assign heroes = page.heroes | default: empty %}
+{% if heroes.size > 0 %}
+  {% for hero in heroes %}
+    {% if hero.position == "top" %}
+      {% include hero.html hero=hero %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% include hero.html %}
+{% endif %}
 
 {{ content }}
 
