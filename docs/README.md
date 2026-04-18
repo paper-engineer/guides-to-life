@@ -4,22 +4,36 @@
 
 okay, honestly, at this point, the thing to do is probably fork minimal-mistakes and tack-on the nav pane stuff, making it iterate in alphabetical order. also the css, just because. 
 
-or...maybe not? found a few links
-https://hydejack.com/
-https://andrewbanchich.github.io/forty-jekyll-theme/
-https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layouts/
-https://github.com/abhinavs/moonwalk
-https://github.com/jeromelachaud/freelancer-theme
-some of which is more practical for the laser, which is what set me off to begin with, but here is a list
-
-and a couple of weirdies
-https://github.com/thiagorossener/jekflix-template
-https://github.com/hunvreus/carte
-that I don't think suit but it was quite funny
+(the thing to do was find a book theme and make each book a separate subsite, and the main site just has a landing page with links out)
 
 okay I think we'll just use this one for the books landing page
 https://github.com/swcool/landing-page-theme
 guess I put that up now somehow
+
+suits the laser
+https://github.com/a-chacon/wind
+https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layouts/
+https://github.com/abhinavs/moonwalk
+https://github.com/jeromelachaud/freelancer-theme
+https://github.com/sharu725/bheema
+https://github.com/sharu725/karna
+
+maybe suits the laser
+https://jamstackthemes.dev/demo/theme/jekyll-creative-theme-new/
+https://jamstackthemes.dev/demo/theme/jekyll-theme-prologue/
+https://jamstackthemes.dev/demo/theme/jekyll-webjeda-cards/
+https://github.com/willianjusten/cards-jekyll-template
+
+now with a repository here of weirdies or potentially useful sites that I think to keep
+https://github.com/thiagorossener/jekflix-template
+https://github.com/hunvreus/carte
+https://github.com/SriSatyaLokesh/theprofile
+https://github.com/joaomlneto/jekyll-multiverse-template
+https://hydejack.com/
+https://andrewbanchich.github.io/forty-jekyll-theme/
+https://jamstackthemes.dev/demo/theme/jekyll-libdoc/
+https://jamstackthemes.dev/demo/theme/jekyll-cause/
+https://jamstackthemes.dev/demo/theme/jekyll-frisco/
 
 Todo
 - see if I can make it read separate collections for chapters
