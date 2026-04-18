@@ -1,29 +1,33 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
-baseurl:
+title: Freedom Highway
+url: "https://paper-engineer.github.io"
+baseurl: "/guides-to-life"
+
+email: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
+timezone: 
+
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Guides to Life
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: 
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - 
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: NZ
 
 permalink: pretty
 
@@ -105,14 +109,14 @@ defaults:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
+#  - Facebook
+#  - Google Plus
+#  - Instagram
+#  - LinkedIn
+#  - Pinterest
+#  - Tumblr
+#  - Twitter
+#  - YouTube
   - Email
   - RSS
 
