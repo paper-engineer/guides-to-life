@@ -11,6 +11,11 @@ https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layo
 https://github.com/abhinavs/moonwalk
 some of which is more practical for the laser, which is what set me off to begin with, but here is a list
 
+and a couple of weirdies
+https://github.com/thiagorossener/jekflix-template
+https://github.com/hunvreus/carte
+that I don't think suit but it was quite funny
+
 Todo
 - see if I can make it read separate collections for chapters
 - raise an issue about the page.url and index.baseurl thing, fork the project if it doesn't work. refer logs 8/2/2026
