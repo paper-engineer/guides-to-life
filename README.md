@@ -1,5 +1,9 @@
 # Change log
 
+19/4/2026: successfully hacked frisco by...a lot...
+
+it's no longer frisco, I can just fucking finish documenting and release it as new. it's basically forty but with, like, less polish. 
+
 18/4/2026: lol landing-page is actually a single page theme, but I need like 4 pages. rip. it works but is insufficient. would have to hack it anyway, but even so. 
 changed to frisco theme instead and now trying to hack that. first make it best-practice-consistent, then start futzing with content and layout. 
 
