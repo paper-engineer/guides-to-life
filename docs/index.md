@@ -8,13 +8,13 @@ layout: landing
 heroes:
   - title: First Hero
     subtitle: This is the first section
-    image: /assets/images/hero1.jpg
-#    align: left
+    image: 
+    position: top
 
   - title: Second Hero
     subtitle: Another section
-    image: /assets/images/hero2.jpg
-#    align: right
+    image: 
+    position:bottom
 ---
 
 
