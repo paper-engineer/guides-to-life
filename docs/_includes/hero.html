@@ -5,7 +5,9 @@
 		<div class="hero-text-container">
 			<h1>{{ include.hero.title }}</h1>
 			<p class="subtext">{{ include.hero.description }}</p>
-      {% if include.hero.image %}<img src="{{ include.hero.image | relative_url }}" alt="">{% endif %}
+     		{% if include.hero.image %}<img src="{{ include.hero.image | relative_url }}" alt="">{% endif %}
+			{% if include.hero.cta %}<div class="cta button alt"><a href="{{ include.hero.link | relative_url }}">{{ include.hero.cta }}</a></div>{% endif %}
 		</div>
 	</div>
+	{% if include.hero.cta %}<div class="learn-more"><a href="{{ include.hero.link | relative_url }}">{{ include.hero.cta }}<span class="arrow">&#x25BC;</span></a></div>{% endif %}
 </section>
