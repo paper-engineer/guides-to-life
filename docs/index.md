@@ -14,7 +14,7 @@ heroes:
   - title: Second Hero
     subtitle: Another section
     image: 
-    position:bottom
+    position: bottom
 ---
 
 
