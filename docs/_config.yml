@@ -27,6 +27,10 @@ remote_theme:
 kramdown:
   input: GFM
   
+collections:
+  pages:
+    output: true
+  
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
