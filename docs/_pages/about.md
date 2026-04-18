@@ -1,5 +1,8 @@
 ---
 layout: page
 title: Elements
-image: assets/images/pic01.jpg
+image: img/screenshot.png
+permalink: /about/
 ---
+
+This is the About page. 
