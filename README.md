@@ -1,5 +1,7 @@
 # Change log
 
+18/4/2026: lol landing-page is actually a single page theme, but I need like 4 pages. rip. it works but is insufficient. would have to hack it anyway, but even so. 
+
 (we assume the content is fixable later, this log is for functionality)
 
 okay, honestly, at this point, the thing to do is probably fork minimal-mistakes and tack-on the nav pane stuff, making it iterate in alphabetical order. also the css, just because. 
