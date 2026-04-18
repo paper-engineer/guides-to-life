@@ -7,14 +7,14 @@ layout: default
 
 heroes:
   - title: First Hero
-    subtitle: This is the first section
+    description: This is the first section
     image: 
     position: top
     cta: Learn More
     link: /about/
 
   - title: Second Hero
-    subtitle: Another section
+    description: Another section
     image: 
     position: bottom
 ---
