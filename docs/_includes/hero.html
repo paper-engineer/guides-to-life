@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>{{ include.hero.title }}</h1>
+			<p class="subtext">{{ include.hero.description }}</p>
+      {% if include.hero.image %}<img src="{{ include.hero.image | relative_url }}" alt="">{% endif %}
+		</div>
+	</div>
+</section>
