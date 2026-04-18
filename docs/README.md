@@ -9,12 +9,17 @@ https://hydejack.com/
 https://andrewbanchich.github.io/forty-jekyll-theme/
 https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/layouts/
 https://github.com/abhinavs/moonwalk
+https://github.com/jeromelachaud/freelancer-theme
 some of which is more practical for the laser, which is what set me off to begin with, but here is a list
 
 and a couple of weirdies
 https://github.com/thiagorossener/jekflix-template
 https://github.com/hunvreus/carte
 that I don't think suit but it was quite funny
+
+okay I think we'll just use this one for the books landing page
+https://github.com/swcool/landing-page-theme
+guess I put that up now somehow
 
 Todo
 - see if I can make it read separate collections for chapters
