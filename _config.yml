@@ -1,15 +1,15 @@
 # ----------------------- #
-#      Main Configs       #
+#      Site Settings      #
 # ----------------------- #
 
-url: https://paper-engineer.github.io/guides-to-life/
 title: Freedom Highway
-email: NA
-author: Big Mog & Little Mog
-description: > # In this book, Big Mog and Little Mog talk about how to function in (contemporary western) society at a baseline level. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+email: 
+description: Guides to Life
+url: "https://paper-engineer.github.io"
+baseurl: "/guides-to-life"
+timezone: NZ
+
+author: 
 copyright: 'Copyright &copy; 2024 CC BY'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
@@ -19,8 +19,16 @@ credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme cr
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: 
+exclude: [".gitignore", "LICENSE", "README.md"]
 
+remote_theme: 
+
+kramdown:
+  input: GFM
+sass:
+  style: compressed
+  
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
