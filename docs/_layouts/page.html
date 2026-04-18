@@ -1,6 +1,10 @@
----
-layout: default
----
+<!DOCTYPE html>
+
+{% include head.html %}
+
+<body>
+	
+{% include header.html %}
 
 {% for hero in page.heroes %}
   {% if hero.position == "top" %}
@@ -15,3 +19,7 @@ layout: default
     {% include hero.html hero=hero %}
   {% endif %}
 {% endfor %}
+
+{% include footer.html %}
+
+</body>
