@@ -2,10 +2,23 @@
 
 {% include head.html %}
 
-	<body>
+<body>
+	
 {% include header.html %}
 
-		{{ content }}
+{% for hero in page.heroes %}
+  {% if hero.position == "top" %}
+    {% include sections/hero.html hero=hero %}
+  {% endif %}
+{% endfor %}
+
+{{ content }}
+
+{% for hero in page.heroes %}
+  {% if hero.position == "bottom" %}
+    {% include sections/hero.html hero=hero %}
+  {% endif %}
+{% endfor %}
 
 {% include footer.html %}
 
