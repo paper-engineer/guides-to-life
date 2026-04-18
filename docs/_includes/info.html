@@ -3,6 +3,7 @@
 		<div class="text">
 			<h2>{{ include.info.title }}</h2>
 			<p>{{ include.info.text }}</p>
+			{% if include.info.cta %}<div class="cta button alt"><a href="{{ include.info.link | relative_url }}">{{ include.info.cta }}</a></div>{% endif %}
 		</div>
 		<div class="image">
 			<img src="{{ include.info.image | relative_url }}" alt="{{ include.info.alt }}" />
