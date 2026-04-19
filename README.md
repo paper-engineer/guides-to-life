@@ -1,5 +1,12 @@
 # Change log
 
+Todo1:
+- my actual remaining next step is to put up the logo, clean up the pages and content, and do dns
+- I would like to migrate to cloudflare pages at some point, I think
+
+Todo2:
+- we're sufficiently done that I think my next step with the template is actually to clone it out, polish it and publish it. which, okay, is actually never happening. not with the amount of documentation I'd have to write. but the option is there. 
+
 19/4/2026: successfully hacked frisco by...a lot...
 
 it's no longer frisco, I can just fucking finish documenting and release it as new. it's basically forty but with, like, less polish. 
