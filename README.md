@@ -3,9 +3,11 @@
 Todo1:
 - my actual remaining next step is to put up the logo, clean up the pages and content, and do dns
 - I would like to migrate to cloudflare pages at some point, I think
+- the top bar text size is not perfect and it's not vertically centred in the pane, at least visually. that's a next time problem. 
 
 Todo2:
-- we're sufficiently done that I think my next step with the template is actually to clone it out, polish it and publish it. which, okay, is actually never happening. not with the amount of documentation I'd have to write. but the option is there. 
+- we're sufficiently done with the template that I think my next step there is actually to clone it out, polish it and publish it. which, okay, is actually never happening. not with the amount of documentation I'd have to write. but the option is there.
+- it bugs the fuck out of me that forty just puts their pages in main. I've just done that refactor, I can clean this one up too. whenever I want to use the template, or if I decide I'm actually building out an entire collection of templates, but I'm not making money off of this so it gets prioritised accordingly. 
 
 19/4/2026: successfully hacked frisco by...a lot...
 
