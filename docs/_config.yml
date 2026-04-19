@@ -1,16 +1,16 @@
 # ----
-# Site
+# Site Info
 
 title: Freedom Highway
 url: "https://paper-engineer.github.io"
 baseurl: "/guides-to-life"
 
+timezone: NZ
+
 email: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
-
-timezone: 
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -26,9 +26,7 @@ social:
 showtitle: true
 
 # -----
-# Build
-
-timezone: NZ
+# Build Parameters
 
 permalink: pretty
 
@@ -111,7 +109,7 @@ defaults:
         resize_style: cover
 
 # -----------
-# Stuff to fix more or less
+# Footer, etc. Configuration
 
 social_icons:
 #  - Facebook
