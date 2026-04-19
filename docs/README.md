@@ -22,10 +22,6 @@ I believe this has pretty much ended up looking like a less sophisticated reskin
 * SEO tags (note: I didn't test this)
 * Google Analytics (note: I didn't test this)
 
-## A thing I did not do
-
-The javascript that manages the top navigation bar light/dark toggle is, according to chatgpt, outdated. Considering where I got the original from, no surprise. But it works right now. 
-
 ## Setup
 
 0. Clone or fork or whatever, I cbf with remote themes. 
@@ -36,6 +32,8 @@ The javascript that manages the top navigation bar light/dark toggle is, accordi
 ## Develop
 
 The original Frisco was built with [Jekyll](http://jekyllrb.com/) version 3.3.1. It seems to currently still work on github pages as of 2026. As it's under the MIT license, you should keep messing with it if it's unsatisfactory. 
+
+The javascript that manages the top navigation bar light/dark toggle is, according to chatgpt, outdated. Considering where I got the original from, no surprise. But it works right now. 
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
