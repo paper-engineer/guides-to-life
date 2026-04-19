@@ -2,6 +2,8 @@
 # Site Info
 
 title: Freedom Highway
+description: Guides to Life
+logo: /siteicon.png
 url: "https://paper-engineer.github.io"
 baseurl: "/guides-to-life"
 
@@ -13,8 +15,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Guides to Life
+#also includes description, I think
 author:
   name:
   email:
@@ -23,7 +24,6 @@ social:
   name: 
   links:
     - 
-showtitle: true
 
 # -----
 # Build Parameters
@@ -110,6 +110,8 @@ defaults:
 
 # -----------
 # Footer, etc. Configuration
+
+showtitle: true
 
 social_icons:
 #  - Facebook
