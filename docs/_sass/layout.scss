@@ -12,6 +12,10 @@
 	max-width: 1140px;
 }
 
+.light-logo {
+	display: inline;
+}
+
 .dark-logo {
 	display: none;
 }
@@ -54,11 +58,11 @@ header {
 		}
 
 		.dark-logo {
-			display: inline-flex;
+			display: inline;
 		}
 
 		.light-logo {
-			display: inline-flex;
+			display: none;
 		}
 	}
 
