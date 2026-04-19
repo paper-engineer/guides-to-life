@@ -7,6 +7,9 @@ left_links:
     link: /about/
   - name: Contact
     link: /contact/
+centre_links:
+  - name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/deed.en
 right_links:
 #  - name:
 #    link: 
