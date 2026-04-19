@@ -64,7 +64,7 @@ I feel like _data, _pages, _posts, _staff_members, _images are pretty self-expla
 
 * Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
 
-(I didn't do anything to this)
+(I didn't do anything to this, and someone should come up with instructions for how to change it to another provider)
 
 ### Staff
 
