@@ -1,41 +1,9 @@
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
-
-<body>
-	
-{% include header.html %}
-
-{% assign heroes = page.heroes | default: empty %}
-{% if heroes.size > 0 %}
-  {% for hero in heroes %}
-    {% if hero.position == "top" %}
-      {% include hero.html hero=hero %}
-    {% endif %}
-  {% endfor %}
-{% else %}
-  {% include hero.html %}
-{% endif %}
-
-<div class="content">
-	
 {% for info in page.infos %}
 	{% include info.html info=info %}
 {% endfor %}
 
 {{ content }}
-
-</div>
-
-{% for hero in page.heroes %}
-  {% if hero.position == "bottom" %}
-    {% include hero.html hero=hero %}
-  {% endif %}
-{% endfor %}
-
-{% include footer.html %}
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/main.js"></script>
-</body>
-</html>
