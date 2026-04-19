@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Test homepage
-layout: default
+layout: landing
 
 heroes:
   - title: First Hero
